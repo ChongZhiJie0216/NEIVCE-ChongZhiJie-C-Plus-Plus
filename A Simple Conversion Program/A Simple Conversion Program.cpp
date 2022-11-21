@@ -19,6 +19,7 @@ int main()
         double cm = input_num - (m * 1000);
 
         cout << input_num;
+        cout << "\n";
         cout << " CM ";
         cout << " to ";
         cout << m;
