@@ -15,8 +15,8 @@ int main()
         cout << "Please Enter Input " << endl;
         int input_num;
         cin >> input_num;
-        int m = input_num / 1000;
-        double cm = input_num - (m * 1000);
+        int m = input_num / 100;
+        double cm = input_num - (m * 100);
 
         cout << input_num;
         cout << "\n";
