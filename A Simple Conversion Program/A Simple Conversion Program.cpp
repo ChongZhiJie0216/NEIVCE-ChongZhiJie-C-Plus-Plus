@@ -18,8 +18,8 @@ int main()
         int m = input_num / 100;
         double cm = input_num - (m * 100);
 
-        cout << input_num;
         cout << "\n";
+        cout << input_num;
         cout << " CM ";
         cout << " to ";
         cout << m;
