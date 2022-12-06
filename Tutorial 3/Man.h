@@ -8,11 +8,5 @@ class Man
 public:
     virtual void introduce();
     virtual void walk();
-
-protected:
-
-private:
-
-
 };
 #endif man_h
