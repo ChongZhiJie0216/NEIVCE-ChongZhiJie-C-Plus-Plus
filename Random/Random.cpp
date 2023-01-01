@@ -46,5 +46,8 @@ void random() {
         if (exit == 'N' || exit == 'n') {
             break;
         }
+        else if (exit == 'Y' || exit == 'y') {
+            void random();
+        }
     }
 }
