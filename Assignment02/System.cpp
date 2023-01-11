@@ -15,14 +15,14 @@ void CourseCode() {
         cout << "" << endl;
         cout << "The Record has been Successfully Entered" << endl;
         cout << "________________________________________" << endl;
-        cout << "Couser Code:SEAIR" << endl;
+        cout << "Course Code:SEAIR" << endl;
         cout << "Your Course Name:Software Engineering (Artificial Intelligent and Industrial Robotic)" << endl;
     }
     else if (course == "SECVR" || "secvr") {
         cout << "" << endl;
         cout << "The Record has been Successfully Entered" << endl;
         cout << "________________________________________" << endl;
-        cout << "Couser Code:SECVR" << endl;
+        cout << "Course Code:SECVR" << endl;
         cout << "Your Course Name:Software Engineering (Computer Games Development and VR)" << endl;
 
     }
@@ -30,7 +30,7 @@ void CourseCode() {
         cout << "" << endl;
         cout << "The Record has been Successfully Entered" << endl;
         cout << "________________________________________" << endl;
-        cout << "Couser Code:SEDSC" << endl;
+        cout << "Course Code:SEDSC" << endl;
         cout << "Your Course Name:Software Engineering (Data Science and Commercial Application Development)" << endl;
 
     }
@@ -38,7 +38,7 @@ void CourseCode() {
         cout << "" << endl;
         cout << "The Record has been Successfully Entered" << endl;
         cout << "________________________________________" << endl;
-        cout << "Couser Code:SEIOT" << endl;
+        cout << "Course Code:SEIOT" << endl;
         cout << "Your Course Name:Software Engineering (Internet of Things)" << endl;
 
     }
@@ -46,7 +46,7 @@ void CourseCode() {
         cout << "" << endl;
         cout << "The Record has been Successfully Entered" << endl;
         cout << "________________________________________" << endl;
-        cout << "Couser Code:SECEF" << endl;
+        cout << "Course Code:SECEF" << endl;
         cout << "Your Course Name:Software Engineering (E-Commerce and Financial Technology)" << endl;
 
     }
@@ -54,7 +54,7 @@ void CourseCode() {
         cout << "" << endl;
         cout << "The Record has been Successfully Entered" << endl;
         cout << "________________________________________" << endl;
-        cout << "Couser Code:ITNET" << endl;
+        cout << "Course Code:ITNET" << endl;
         cout << "Your Course Name:IT infrastructure (Computer Networking)" << endl;
 
     }
@@ -62,7 +62,7 @@ void CourseCode() {
         cout << "" << endl;
         cout << "The Record has been Successfully Entered" << endl;
         cout << "________________________________________" << endl;
-        cout << "Couser Code:ITCSI" << endl;
+        cout << "Course Code:ITCSI" << endl;
         cout << "Your Course Name:IT infrastructure (Cyber Security)" << endl;
     }
 }
@@ -81,7 +81,7 @@ void StudentRegistrationEntry() {
     cout << "" << endl;
     cout << "The Record has been Successfully Entered" << endl;
     cout << "________________________________________" << endl;
-    cout << "Couser Code:"<<course << endl;
+    cout << "Course Code:"<<course << endl;
     cout << "Student Name:" << stdname << endl;
     cout << "Student Number:" << stdnum << endl;
 }
@@ -117,4 +117,33 @@ void DeleteStudentRecord() {
 void CourseEnrolmentReport() {
     cout << "Course Enrolment Report" << endl;
     cout << "________________________________________" << endl;
+    cout << "" << endl;
+    cout << "SEAIR-Software Engineering (Artificial Intelligent and Industrial Robotic)" << endl;
+    cout << "" << endl;
+
+    cout << "" << endl;
+    cout << "SECVR-Software Engineering (Computer Games Development and VR)"<<endl;
+    cout << "" << endl;
+    
+    cout << "" << endl;
+    cout << "SEDSC-Software Engineering (Data Science and Commercial Application Development)" << endl;
+    cout << "" << endl;
+
+    cout << "" << endl;
+    cout << "SEIOT-Software Engineering (Internet of Things)" << endl;
+    cout << "" << endl;
+
+    cout << "" << endl;
+    cout << "SECEF-Software Engineering (E-Commerce and Financial Technology)" << endl;
+    cout << "" << endl;
+
+    cout << "" << endl;
+    cout << "ITNET-IT infrastructure (Computer Networking)" << endl;
+    cout << "" << endl;
+
+    cout << "" << endl;
+    cout << "ITCSI-IT infrastructure (Cyber Security)" << endl;
+    cout << "" << endl;
+
+
 }
