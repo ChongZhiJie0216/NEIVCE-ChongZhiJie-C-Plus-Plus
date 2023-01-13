@@ -1,10 +1,11 @@
-#include <vector>
 #include <algorithm>
 #include <string>
 #include <iostream>
 #include <vector>
 #include "Menu.h"
 #include "System.h"
+#include "Student.h"
+
 using namespace std;
 
 void CourseCode() {
@@ -72,7 +73,6 @@ void StudentRegistrationEntry() {
     string stdname;
     int stdnum;
     cout << "Enter Course Code:" << endl;
-    cin >> course;
     cout << "Enter Student Name:" << endl;
     cin >> stdname;
     cout << "Enter Student Number:" << endl;
@@ -81,7 +81,7 @@ void StudentRegistrationEntry() {
     cout << "" << endl;
     cout << "The Record has been Successfully Entered" << endl;
     cout << "________________________________________" << endl;
-    cout << "Course Code:"<<course << endl;
+    cout << "Course Code:" << course << endl;
     cout << "Student Name:" << stdname << endl;
     cout << "Student Number:" << stdnum << endl;
 }
@@ -97,8 +97,6 @@ void DeleteCourseRecord() {
     cout << "" << endl;
     cout << course << "has been successfully DELETED" << endl;
     cout << "" << endl;
-
-
 }
 
 void DeleteStudentRecord() {
@@ -144,6 +142,5 @@ void CourseEnrolmentReport() {
     cout << "" << endl;
     cout << "ITCSI-IT infrastructure (Cyber Security)" << endl;
     cout << "" << endl;
-
 
 }

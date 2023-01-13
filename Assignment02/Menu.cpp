@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 #include "Menu.h"
-#include "System.h"
+#include "CourseCode.h"
 
 using namespace std;
 
@@ -32,13 +32,13 @@ void Menu() {
             StudentRegistrationEntry();
             break;
         case 3:
-            CourseCode();
+            DeleteCourseRecord();
             break;
         case 4:
-            CourseCode();
+            DeleteStudentRecord();
             break;
         case 5:
-            CourseCode();
+            CourseEnrolmentReport();
             break;
         case 0:
             cout << "System Exit, Thanks Your" << endl;

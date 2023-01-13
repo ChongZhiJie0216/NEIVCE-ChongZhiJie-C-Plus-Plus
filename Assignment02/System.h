@@ -6,4 +6,4 @@ void StudentRegistrationEntry();
 void DeleteCourseRecord();
 void DeleteStudentRecord();
 void CourseEnrolmentReport();
-#endif#
+#endif
