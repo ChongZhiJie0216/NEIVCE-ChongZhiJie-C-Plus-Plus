@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClCompile Include="Assignment02.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Student.cpp" />
     <ClCompile Include="System.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment02.h" />
+    <ClInclude Include="Course.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="System.h" />

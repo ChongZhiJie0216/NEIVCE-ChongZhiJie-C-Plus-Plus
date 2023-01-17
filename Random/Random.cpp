@@ -6,36 +6,39 @@
 #include "random.h"
 
 using namespace std;//std=java scanner
+
+
+
 void random() {
-    while (true) {
+    string exit;
+    while (exit !="n"||exit !="N") {
         srand(time(0));//set random seed
-        int min = 0;
-        int max = 0;
-        int count = 0;
-        char exit;
+        int min;
+        int max;
+        int count;
 
-        std::string userInput{};
-        std::cout << "Enter total set of random number:";
-        std::getline(std::cin, userInput);
-        count = std::stoi(userInput);
-
-        userInput = "";
-        std::cout << "Enter minimun number:";
-        std::getline(std::cin, userInput);
-        min = std::stoi(userInput);
+        string userInput{};
+        cout << "Enter total set of random number:";
+        getline(cin, userInput);
+        count = stoi(userInput);
 
         userInput = "";
-        std::cout << "Enter maximun number:";
-        std::getline(std::cin, userInput);
-        max = std::stoi(userInput);
+        cout << "Enter minimun number:";
+        getline(cin, userInput);
+        min = stoi(userInput);
 
-        std::vector<int> nums;
+        userInput = "";
+        cout << "Enter maximun number:";
+        getline(cin, userInput);
+        max = stoi(userInput);
+
+        vector<int> nums;
         nums.resize(count); // List<int> nums = new ArrayList(count);
         for (int i = 0; i < count; i++) {
             nums[i] = rand() % (max - min + 1) + min; // nums.add(gen(engine));
         }
 
-        std::sort(nums.begin(), nums.end());
+        sort(nums.begin(), nums.end());
 
         for (const auto& i : nums) {
             cout << i << endl;
@@ -43,11 +46,7 @@ void random() {
 
         cout << "\n\nContinue? Y/N\n";
         cin >> exit;
-        if (exit == 'N' || exit == 'n') {
-            break;
-        }
-        else if (exit == 'Y' || exit == 'y') {
-            void random();
-        }
+
     }
+   
 }

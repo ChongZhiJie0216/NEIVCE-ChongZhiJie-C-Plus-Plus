@@ -1,2 +1,11 @@
-﻿  StudentRegistrationEntry.cpp
-D:\01-Workspace\NEIVCE-ChongZhiJie-C-Plus-Plus\Assignment02\StudentRegistrationEntry.h(2,10): fatal  error C1083: Cannot open include file: 'Entry.h': No such file or directory
+﻿  Menu.cpp
+  Student.cpp
+  System.cpp
+D:\01-Workspace\NEIVCE-ChongZhiJie-C-Plus-Plus\Assignment02\System.cpp(73,12): error C2146: syntax error: missing ';' before identifier 'course'
+D:\01-Workspace\NEIVCE-ChongZhiJie-C-Plus-Plus\Assignment02\System.cpp(73,12): error C2065: 'course': undeclared identifier
+D:\01-Workspace\NEIVCE-ChongZhiJie-C-Plus-Plus\Assignment02\System.cpp(74,12): error C2146: syntax error: missing ';' before identifier 'stdname'
+D:\01-Workspace\NEIVCE-ChongZhiJie-C-Plus-Plus\Assignment02\System.cpp(74,12): error C2065: 'stdname': undeclared identifier
+D:\01-Workspace\NEIVCE-ChongZhiJie-C-Plus-Plus\Assignment02\System.cpp(78,12): error C2065: 'stdname': undeclared identifier
+D:\01-Workspace\NEIVCE-ChongZhiJie-C-Plus-Plus\Assignment02\System.cpp(85,31): error C2065: 'course': undeclared identifier
+D:\01-Workspace\NEIVCE-ChongZhiJie-C-Plus-Plus\Assignment02\System.cpp(86,32): error C2065: 'stdname': undeclared identifier
+  Generating Code...

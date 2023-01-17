@@ -4,6 +4,7 @@ using namespace std;
 class Student
 {
 public:
-    string studentName;
-    int studentNumber;
+    string course;
+    string stdname;
+    string stdnum;
 };

@@ -71,12 +71,16 @@ void CourseCode() {
 void StudentRegistrationEntry() {
     string course;
     string stdname;
-    int stdnum;
+    string stdnum;
     cout << "Enter Course Code:" << endl;
+    cin >> course;
+    student.push_back(course);
     cout << "Enter Student Name:" << endl;
     cin >> stdname;
+    student.push_back(stdname);
     cout << "Enter Student Number:" << endl;
     cin >> stdnum;
+    student.push_back(stdnum);
 
     cout << "" << endl;
     cout << "The Record has been Successfully Entered" << endl;
@@ -118,7 +122,7 @@ void CourseEnrolmentReport() {
     cout << "" << endl;
     cout << "SEAIR-Software Engineering (Artificial Intelligent and Industrial Robotic)" << endl;
     cout << "" << endl;
-
+    cout << "Student name:" <<  << endl;
     cout << "" << endl;
     cout << "SECVR-Software Engineering (Computer Games Development and VR)"<<endl;
     cout << "" << endl;
